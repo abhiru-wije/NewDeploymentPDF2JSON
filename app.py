@@ -2,7 +2,6 @@ import streamlit as st
 from nanonets import NANONETSOCR
 import io
 
-
 def process_file(uploaded_file):
     model = NANONETSOCR()
     model.set_token('95e09787-0a63-11ee-9c73-1e85f057e35b')
